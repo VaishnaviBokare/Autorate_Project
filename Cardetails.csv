@@ -1,0 +1,379 @@
+Make,Model,Type,Seats,engine
+Tata,Nano Genx,Hatchback,4,800
+Datsun,Redi-Go,Hatchback,5,1000
+Renault,Kwid,Hatchback,5,1000
+Maruti,Eeco,Van,7,1000
+Maruti,Alto K10,Hatchback,4,800
+Datsun,Go,Hatchback,5,1000
+Maruti,Celerio Tour,Hatchback,5,1200
+Hyundai,Santro,Hatchback,5,1000
+Tata,Tiago,Hatchback,5,1200
+Maruti,Celerio X,Hatchback,5,1200
+Maruti,Ignis,Hatchback,5,1000
+Renault,Triber,Hatchback,5,1100
+Premier,Rio,Hatchback,5,1200
+Toyota,Etios Liva,Sedan,5,1300
+Nissan,Micra Active,Hatchback,5,1400
+Tata,Bolt,Hatchback,5,1250
+Hyundai,Xcent Prime,Sedan,5,1100
+Maruti,Dzire Tour,Sedan,5,1250
+Hyundai,Elite I20,Hatchback,5,1400
+Hyundai,Aura,Sedan,5,1100
+Volkswagen,Polo,Hatchback,5,1500
+Maruti,Dzire,Sedan,5,1200
+Ford,Freestyle,Hatchback,5,1000
+Volkswagen,Ameo,Sedan,5,1500
+Ford,Aspire,Sedan,5,1400
+Toyota,Platinum Etios,Sedan,5,1350
+Toyota,Etios Cross,Hatchback,5,1400
+Mahindra,Verito Vibe,Hatchback,5,1200
+Fiat,Urban Cross,Hatchback,5,1250
+Toyota,Glanza,Hatchback,5,1200
+Fiat,Avventura,SUV,5,1250
+Honda,Jazz,SUV,5,1200
+Jeep,Compass Trailhawk,MPUV(Multi Person Utility Vehicle),7,1950
+Isuzu,Mu-X,SUV,5,3000
+Mahindra,Alturas G4,SUV,5,1400
+Volkswagen,Tiguan,SUV,5,1984
+Honda,Cr-V,SUV,5,1600
+Skoda,Superb Sportline,Sedan,5,1984
+Audi,A3,SUV,5,1968
+Mercedes,Mercedes-Benz B-Class,Sedan,5,2000
+Mercedes,Mercedes-Benz Cla-Class,Sedan,5,2000
+Skoda,Kodiaq,MPUV(Multi Person Utility Vehicle),7,1984
+Dc,Avanti,,,1200
+Audi,Q3,SUV,5,1984
+Mini,Cooper 5 Door,Mini,4,1600
+Mini,Convertible,Mini,4,1600
+Volvo,Xc40,SUV,5,1969
+Mini,Clubman,Mini,5,1200
+Audi,A4,SUV,5,1984
+Mini,John Cooper Works,Mini,4,
+Jaguar,Xe,Sedan,5,1900
+Jaguar,Xf,Sedan,5,1900
+Audi,A3 Cabriolet,SUV,5,1900
+Audi,A6,SUV,5,1900
+Bmw,X3,SUV,5,1800
+Land Rover,Discovery Sport,SUV,5,2000
+Volvo,S90,Sedan,5,1969
+Audi,S5,SUV,5,2995
+Bmw,X5,SUV,5,1995
+Ford,Mustang,Sedan,5,4999
+Jeep,Grand Cherokee,SUV,5,1995
+Mercedes,Mercedes-Benz E-Class Cabriolet,Sedan,5,1995
+Bmw,M2 Competition,Sedan,5,2993
+Porsche,718,SUV,5,3995
+Mercedes,Mercedes-Benz Gls,SUV,5,
+Toyota,Land Cruiser Prado,SUV,5,3346
+Lexus,Rx 450H,Sedan,5,3456
+Audi,Rs5,SUV,5,2995
+Bmw,7-Series,SUV,5,2993
+Audi,Q8,SUV,5,1984
+Mercedes,Mercedes-Benz S-Class,Sedan,5,1984
+Maserati,Levante,Sedan,5,1984
+Mercedes,Mercedes-Benz G-Class,Luxury SUV,5,1984
+Audi,A8 L,SUV,5,1984
+Maserati,Granturismo,Super Car,2,4881
+Maserati,Quattroporte,Sports Sedan,2,4881
+Lexus,Lc 500H,Sedan,5,3456
+Mercedes,Mercedes-Benz Maybach,Sedan,5,1993
+Porsche,Panamera,Porsche,2,3998
+Lexus,Lx 450D,Sedan,2,3456
+Mercedes,Mercedes-Benz S-Class Cabriolet,Sedan,5,1984
+Audi,R8,SUV,5,5204
+Lamborghini,Urus,Lamborghini,2,3999
+Bentley,Continental Gt,Bentley,,6000
+Ferrari,Portofino,Ferrari,,3855
+Bentley,Bentayga,Bentley,,
+Aston Martin,Db 11,SUV,5,
+Ferrari,458 Speciale,SUV,5,
+Rolls-Royce,Rolls-Royce Ghost Series Ii,Rolls-Royce,5,
+Rolls-Royce,Rolls-Royce Wraith,Rolls-Royce,,
+Bentley,Mulsanne,Bentley,,
+Rolls-Royce,Rolls-Royce Cullinan,Rolls-Royce,,
+Rolls-Royce,Rolls-Royce Phantom Coupe,Rolls-Royce,,
+Bugatti,Chiron,Bugatti,,
+Bajaj,Qute (Re60),Bajaj,,
+Maruti,Alto,Maruti,4,800
+Maruti,S-Presso,Hatchback,5,998
+Maruti,Celerio,Hatchback,5,998
+Hyundai,Grand I10 Prime,Hatchback,5,1200
+Mahindra,Kuv100 Nxt,Compact SUV,5,1198
+Maruti,Swift,Hatchback,5,1200
+Tata,Altroz,Hatchback,5,1200
+Icml,Extreme,Icml,,
+Tata,Tigor,Hatchback,5,1200
+Tata,Zest,Hatchback,5,1250
+Honda,Amaze,Sedan,5,1499
+Maruti,Gypsy,Gypsy,4,1298
+Hyundai,Venue,Compact SUV,5,1493
+Tata,Nexon,Compact SUV,5,1497
+Fiat,Linea,Sedan,5,1248
+Mahindra,Bolero Power Plus,MPUV(Multi Person Utility Vehicle),7,1400
+Maruti,Vitara Brezza,SUV,5,1400
+Hyundai,I20 Active,Compact SUV,5,1200
+Ford,Ecosport,Compact SUV,5,1200
+Renault,Duster,SUV,5,1498
+Hyundai,Verna,Sedan,5,1600
+Mahindra,Xuv300,SUV,5,1500
+Renault,Lodgy,MPUV(Multi Person Utility Vehicle),7,1600
+Volkswagen,Vento,Sedan,5,1500
+Mahindra,E2O Plus,SUV,5,1190
+Tata,Tigor Ev,Hatchback,5,
+Honda,Brv,Compact SUV,5,1400
+Mahindra,Thar,Off Road ,4,2100
+Force,Gurkha,MPUV(Multi Person Utility Vehicle),7,
+Maruti,Xl6,MPUV(Multi Person Utility Vehicle),7,1600
+Fiat,Abarth Avventura,Hatchback,5,
+Mahindra,Tuv300 Plus,Hatchback,5,1493
+Mahindra,Marazzo,MPUV(Multi Person Utility Vehicle),7,1497
+Mahindra,Scorpio,MPUV(Multi Person Utility Vehicle),7,2100
+Skoda,Monte Carlo,SUV,5,1498
+Mahindra,Xuv500,SUV,7,2179
+Mahindra,E Verito,SUV,7,2000
+Tata,Hexa,SUV,7,2000
+Toyota,Innova Crysta,MPUV(Multi Person Utility Vehicle),7,2100
+Jeep,Compass,SUV,5,1956
+Toyota,Corolla Altis,Sedan,5,1800
+Honda,Civic,Sedan,5,1600
+Mg,Zs Ev,Sedan,5,
+Kia,Carnival,MPUV(Multi Person Utility Vehicle),7,2199
+Skoda,Superb,Sedan,5,1984
+Volvo,V40,Sedan,5,1969
+Toyota,Fortuner,MPUV(Multi Person Utility Vehicle),7,2755
+Ford,Endeavour,MPUV(Multi Person Utility Vehicle),7,2998
+Mini,Cooper 3 Door,Mini,2,1998
+Skoda,Kodiaq Scout,SUV,5,1984
+Bmw,X1,SUV,5,1995
+Volvo,S60,SUV,5,2000
+Bmw,3-Series,SUV,5,2998
+Volvo,S60 Cross Country,SUV,5,1969
+Audi,Q5,SUV,5,1984
+Land Rover Rover,Range Evoque,Land Rover Rover,5,
+Mercedes,Mercedes-Benz E-Class,Sedan,4,
+Volvo,Xc60,SUV,5,1920
+Bmw,X4,SUV,5,2000
+Jeep,Wrangler,Gypsy,4,1995
+Mercedes,Mercedes-Benz C-Class Cabriolet,Sedan,5,
+Bmw,Z4 Roadster,Coupe,2,1495
+Mercedes,Mercedes-Benz V-Class,Van,7,
+Audi,Q7,SUV,5,1984
+Land Rover Rover,Range Evoque Convertible,SUV,5,
+Land Rover Rover,Range Velar,SUV,5,
+Mercedes,Mercedes-Benz E-Class All Terrain,Sedan,5,
+Volvo,Xc90,MPUV(Multi Person Utility Vehicle),7,
+Land Rover Rover,Range Sport,Land Rover Rover,5,
+Jaguar,Xj,Sedan,5,2993
+Porsche,Cayenne,Coupe,2,2894
+Maserati,Ghibli,Maserati,,
+Toyota,Land Cruiser,SUV,,3346
+Audi,Rs7,Sports Sedan,,2000
+Land Rover Rover,Range,Land Rover Rover,,
+Maserati,Grancabrio,Maserati,,
+Mercedes,Mercedes-Benz Amg-Gt,Coupe,,
+Mercedes,Mercedes-Benz Amg Gt 4-Door Coupe,Coupe,,
+Lamborghini,Huracan,Lamborghini,,5204
+Ferrari,488 Gtb,SUV,5,3902
+Ferrari,Gtc4 Lusso,Ferrari,2,6262
+Lamborghini,Aventador,Lamborghini,,
+Rolls-Royce,Rolls-Royce Dawn,Rolls-Royce,,
+Rolls-Royce,Rolls-Royce Drophead Coupe,Rolls-Royce,,
+Maruti,Omni,Van,8,800
+Nissan,Go+,Hatchback,5,998
+Fiat,Punto Evo Pure,Hatchback,5,998
+Ford,Figo,Hatchback,5,1200
+Maruti,Baleno,Hatchback,5,1400
+Hyundai,Grand I10,Hatchback,5,1200
+Fiat,Linea Classic,Sedan,5,1200
+Nissan,Sunny,Sedan,5,1461
+Maruti,Ertiga,MPUV(Multi Person Utility Vehicle),7,1462
+Maruti,Baleno Rs,Hatchback,5,998
+Honda,Wr-V,Compact SUV,5,1400
+Mahindra,Tuv300,Compact SUV,5,1493
+Maruti,S-Cross,Compact SUV,5,1462
+Renault,Captur,Hatchback,5,1461
+Mahindra,Xylo,MPUV(Multi Person Utility Vehicle),7,1400
+Kia,Seltos,SUV,5,1500
+Nissan,Terrano,SUV,5,1461
+Tata,Safari Storme,MPUV(Multi Person Utility Vehicle),7,2179
+Mg,Hector,MPUV(Multi Person Utility Vehicle),7,1956
+Tata,Nexon Ev,Compact SUV,5,
+Hyundai,Elantra,Sedan,5,2000
+Hyundai,Tucson,SUV,5,2000
+Volkswagen,Passat,Hatchback,5,1400
+Mercedes,Mercedes-Benz A-Class,Sedan,5,
+Volvo,V40 Cross Country,Hatchback,5,
+Mini,Countryman,Mini,2,
+Mercedes,Mercedes-Benz C-Class,Mercedes,,
+Toyota,Prius,Hatchback,5,1800
+Lexus,Es,Sedan,5,2487
+Lexus,Nx 300H,Sedan,5,2487
+Jaguar,F-Pace,Sedan,5,2487
+Volvo,V90 Cross Country,MPUV(Multi Person Utility Vehicle),7,2487
+Audi,A5 Cabriolet,Coupe,2,2487
+Mercedes,Mercedes-Benz Gle,SUV,5,2487
+Mercedes,Mercedes-Benz Cls,Sports Sedan,2,2487
+Bmw,X7,SUV,5,2487
+Bmw,M4,SUV,5,2487
+Porsche,911,Coupe,2,2487
+Nissan,Gtr,Sports Sedan,2,2487
+Aston Martin,Vantage,Aston Martin,2,2487
+Aston Martin,Rapide,Aston Martin,2,2487
+Ferrari,812 Superfast,SUV,5,6496
+Maruti,Alto 800 Tour,Hatchback,4,800
+Hyundai,Grand I10 Nios,Hatchback,5,1200
+Hyundai,Xcent,Sedan,5,1400
+Nissan,Micra,Hatchback,5,1461
+Mahindra,Bolero,MPUV(Multi Person Utility Vehicle),7,1493
+Maruti,Ciaz,Sedan,5,1400
+Skoda,Rapid,Sedan,5,1000
+Fiat,Abarth Punto,Hatchback,5,
+Hyundai,Creta,SUV,5,1500
+Tata,Harrier,SUV,5,2000
+Isuzu,Dmax V-Cross,Pickup-Truck,5,
+Mitsubishi,Outlander,SUV,5,2360
+Mercedes,Mercedes-Benz Gla-Class,SUV,5,2000
+Honda,Accord Hybrid,SUV,5,2000
+Bmw,5-Series,Sports Sedan,2,1998
+Bmw,6-Series,SUV,5,2000
+Porsche,Macan,Porsche,5,
+Jaguar,F-Type,Sedan,5,
+Bmw,M5,Sedan,5,4395
+Lexus,Lx 570,MPUV(Multi Person Utility Vehicle),7,3346
+Ferrari,458 Spider,SUV,5,4497
+Maruti ,Wagon R,Maruti R,5,1200
+Tata,Tiago Nrg,Hatchback,5,1200
+Mahindra,Nuvosport,SUV,5,1400
+Nissan,Kicks,Compact SUV,5,1200
+Tata,Winger,Van,5,2179
+Hyundai,Kona Electric,Compact SUV,5,
+Toyota,Camry,Sedan,5,2494
+Audi,A5,Sedan,5,2494
+Land Rover,Discovery,SUV,5,
+Lexus,Ls 500H,Sedan,5,
+,Rolls-Royce Phantom,,,
+Fiat,Punto Evo,Hatchback,5,
+Toyota,Yaris,Sedan,5,1496
+Skoda,Octavia,Sedan,5,1498
+Mercedes,Mercedes-Benz Glc,SUV,5,
+Porsche,Cayenne Coupe,Coupe,2,
+Mahindra,Verito,Hatchback,5,
+Mitsubishi,Pajero Sport,SUV,5,
+Bentley,Flying Spur,Bentley,,
+Honda,City,Sedan,5,1500
+Mitsubishi,Montero,MPUV(Multi Person Utility Vehicle),7,
+Maruti_Suzuki,,Maruti_Suzuki,,
+Chevrolet,Beat,Hatchback,4,1000
+Chevrolet,Tavera,MPUV(Multi Person Utility Vehicle),7,1400
+Chevrolet,Enjoy,MPUV(Multi Person Utility Vehicle),7,1400
+Chevrolet,Cruize,Sedan,5,2000
+Chevrolet,Sail,Sedan,5,1248
+Chevrolet,Spark,Hatchback,5,995
+Chevrolet,Impala,Sedan,5,2500
+Chevrolet,Captiva,Suv,5,2200
+Chevrolet,Trailblazer,SZUV,5,2800
+Chevrolet,Aveo,Sedan,5,1400
+Chevrolet,Optra Magnum ,Sedan,5,1200
+Chevrolet,Corvette ,Sports Sedan,2,1200
+Chevrolet,Camaro,Sports Sedan,2,1200
+Chevrolet,Silverado,Pickup-Truck,5,1200
+Chevrolet,Forester,MPUV(Multi Person Utility Vehicle),7,1200
+Chevrolet,Tourer,Old ,5,1200
+Chevrolet,Flitline,Old ,5,1200
+Datsun,Go,Hatchback,5,1198
+Datsun,Go+ ,MPUV(Multi Person Utility Vehicle),7,1200
+Datsun,Redi-Go,Hatchback,4,999
+Datsun,Go Cross ,Compact SUV,5,1200
+Jeep,Compass,SUV,5,1984
+Jeep,Wrangler,Gypsy,4,1984
+Jeep,Meridian ,MPUV(Multi Person Utility Vehicle),7,1984
+Jeep,Grand Cherokee,MPUV(Multi Person Utility Vehicle),7,1984
+Jeep,Cherokee,MPUV(Multi Person Utility Vehicle),7,1984
+Jeep,Avenger,SUV,5,1984
+Jeep,Renegade,SUV,5,1984
+Mitsubishi,Cedia,Sedan,5,1984
+Mitsubishi,Challenger ,MPUV(Multi Person Utility Vehicle),7,1984
+Mitsubishi,FTO,Sports Sedan,2,1984
+Mitsubishi,Lancer,Sedan,5,1984
+Mitsubishi,Lancer Evolution X,Sedan,5,1984
+Mitsubishi,Montero,MPUV(Multi Person Utility Vehicle),7,1984
+Mitsubishi,Outlander,MPUV(Multi Person Utility Vehicle),7,1984
+Mitsubishi,Pajero Sport,MPUV(Multi Person Utility Vehicle),7,1984
+Volkswagen,Virtus,Sedan,5,1498
+Volkswagen,Taigun,SUV,5,1984
+Volkswagen,Tiguan,SUV,5,1984
+Volkswagen,Taigun GT Plus Sports,SUV,5,1985
+Volkswagen,Polo,Hatchback,5,1498
+Volkswagen,Vento,Sedan,5,1500
+Volkswagen,Ameo,Sedan,5,1500
+Volkswagen,Polo GT,Hatchback,5,1500
+BMW,iX1,SUV,5,2000
+BMW,iX xDrive50,SUV,5,2000
+BMW,i4,SUV,5,2998
+BMW,i7,SUV,5,2998
+BMW,i7 M70 xDrive,SUV,5,2998
+BMW,X3 xDrive M40i,Compact SUV,5,2998
+BMW,X7,SUV,5,2998
+BMW,X5,SUV,5,2998
+BMW,X3,SUV,5,2998
+BMW,X1,SUV,5,2998
+BMW,M2 Coupe,Coupe,2,2998
+BMW,Z4 M40i,Sports Sedan,2,2998
+BMW,XM,SUV,5,2998
+BMW,M340i,Sedan,5,2998
+BMW,M8 Competition Coupe,Coupe,2,2998
+BMW,7 Sereis Sedan,Sedan,5,2998
+BMW,6 sereis Gran Turismo,Liftback,5,2998
+BMW,3 Sereis Gran Limousine,Sedan,5,2998
+Nissan,Magnite,SUV,5,999
+Nissan,Qashaqai,SUV,5,1461
+Nissan,X-Trail,SUV,5,999
+Nissan,Juke,Compact SUV,5,998
+Nissan,Terrano,SUV,5,1400
+MG,Comet,Hatchback,5,
+MG,Hector,SUV,5,2000
+MG,Zs Ev,SUV,5,
+MG,Astor,SUV,5,1500
+MG,Hector Plus,SUV,5,2000
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+Kia,Sonet,Compact SUV,,1500
+Fiat,1100,SUV,,1100
+Fiat,Millicento,Compact SUV,,1089
+Fiat,Adventure,Compact SUV,,1200
+Fiat,Urban Cross,Compact SUV,,1400
+Maruti,A star,Hatchback,4,998
+Maruti,Wagon R,Hatchback,,1200
+Maruti,Fronx,Compact SUV,,1200
+Maruti,S Cross,Compact SUV,,1500
+Maruti,Grand Vitara ,SUV,,1462
+Maruti,Urban Cruizer ,SUV,,1462
+Ford,Figo,Hatchback,,1200
+Ford ,Figo Fiesta ,Sedan,,1400
+Opel,Astra,Hatchback,,1600
+Opel,Corsa,Hatchback,,1400
+Opel,Manta,Sports Sedan,,1400
+Opel,Crossland,Compact SUV,,1400
+Opel,Granland,SUV,,1400
+Opel,mokka,Compact SUV,,1400
+Opel,Combo Life,Van,,1400
+Isuzu,D-Max,Pickup-Truck,,2499
+Isuzu,Mu-X,Pickup-Truck,,1898
+Isuzu,V-Cross,Pickup-Truck,,1898
+Isuzu,S-Cab,Pickup-Truck,,1898
+Isuzu,Hi-Lander,Pickup-Truck,,1898
+Ashok,Stile,Ashok,,1898
+Ambassador,3.1 Mark,Ambassador,,1898
+Ambassador,3.2 Mark,Ambassador,,1898
+Ambassador,3.3 Mark,Ambassador,,1898
+Ambassador,3.4 Mark,Ambassador,,1898
+Ambassador,3.5 Nova,Ambassador,,1898
+Ambassador,1800 ISZ,SUV,,1898
+Ambassador,Final Generation,Ambassador,,1898
+Ambassador,Encore,Ambassador,,1200

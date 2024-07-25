@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.91/build/spline-viewer.js"></script>
+
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.2.5/build/spline-viewer.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{{ url_for('static', filename='images/ico.jpg') }}" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>AutoRate</title>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!-- Include Spline Viewer script -->
+  </head>
+<body>
+
+    <div id="main">
+        <div id="page1" >
+            <div id="nav">
+                <div class="logo">
+                    <img src="{{ url_for('static', filename='images/iogo.png') }}" alt="">
+                </div>
+                <div class="options">
+                    <h2>Home</h2>
+                    <h2>About</h2>
+                    <h2>Contact</h2>
+                    <button class="btn">Get Start</button>
+                </div>
+            </div>
+
+            <div id="cara">
+         <spline-viewer id="mySplineViewer" url="https://prod.spline.design/F1kEnDQWBbV35JyW/scene.splinecode"></spline-viewer> 
+            </div>
+            <!-- Add Spline Viewer after the nav div -->
+             
+            <div id="hero-head">
+
+                <h1>Unveiling Tomorrow's <br>Prices <br>Today</h1>
+            </div>
+
+        </div>
+
+        <div id="page2" >
+
+            <section class="features">
+                <h1>Why Choose Us<span class="yellow">?</span></h1>
+              
+                <div class="container">
+                  <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="{{ url_for('static', filename='images/3d-car.png') }}">
+                    </div>
+                    <div class="feature-details">
+                      <h4>Accurate Predictions</h4>
+                      <p> Our system provides precise estimates for old car prices.</p>
+                    </div>
+                  </div>
+                  <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="{{ url_for('static', filename='images/engi.png') }}" alt="Feature 2">
+                    </div>
+                    <div class="feature-details">
+                      <h4>Data Analysis</h4>
+                      <p>We conduct comprehensive examination of various data sources to determine old car values."</p>
+                    </div>
+                  </div>
+                  <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="{{ url_for('static', filename='images/ml.png') }}" alt="Feature 3">
+                    </div>
+                    <div class="feature-details">
+                      <h4>Methodology </h4>
+                      <p>Our process is fully disclosed, ensuring trust and understanding.</p>
+                    </div>
+                  </div>
+                  <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="{{ url_for('static', filename='images/pri.png') }}" alt="Feature 4">
+                    </div>
+                    <div class="feature-details">
+                      <h4> Insights</h4>
+                      <p>Receive tailored recommendations and insights based on your specific old car and requirement</p>
+                    </div>
+                  </div>
+              
+                  <button id="fbtn">Learn More</button>
+              
+                </div>
+              
+
+              </section>
+            
+
+
+
+
+
+
+
+
+
+        </div><!--page2-->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffd700" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,213.3C384,203,480,149,576,154.7C672,160,768,224,864,224C960,224,1056,160,1152,149.3C1248,139,1344,181,1392,202.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+
+        <div id="page3">
+          <div class="multistep-form">
+            <!-- Step Counter -->
+            <div class="form-step-counter">
+                <div class="car"></div>
+                <div class="step-indicator step-1 active">1</div>
+                <div class="step-indicator step-2">2</div>
+                <div class="step-indicator step-3">3</div>
+            </div>
+    
+            <!-- Form Steps -->
+            <form id="car-form" action="/predict" method="post">
+                <!-- Step 1 -->
+                <div class="form-step step-1 active">
+                    <div class="form-content">
+                        <h2>Tell us about your car</h2>
+                        <div class="form-group">
+                            <label  for="brand-name">Brand Name</label>
+                            <select id="brand-name" name="brand-name">
+                                <option value="Maruti">Maruti</option>
+                                <option value="Skoda">Skoda</option>
+                            <option value="Honda">Honda</option>
+                            <option value="Hyundai">Hyundai</option>
+                            <option value="Toyota">Toyota</option>
+                            <option value="Ford">Ford</option>
+                            <option value="Renault">Renault</option>
+                            <option value="Mahindra">Mahindra</option>
+                            <option value="Tata">Tata</option>
+                            <option value="Chevrolet">Chevrolet</option>
+                            <option value="Datsun">Datsun</option>
+                            <option value="Jeep">Jeep</option>
+                            <option value="Mercedes">Mercedes</option>
+                            <option value="Mitsubishi">Mitsubishi</option>
+                            <option value="Audi">Audi</option>
+                            <option value="Volkswagen">Volkswagen</option>
+                            <option value="BMW">BMW</option>
+                            <option value="Nissan">Nissan</option>
+                            <option value="Lexus">Lexus</option>
+                            <option value="Jaguar">Jaguar</option>
+                            <option value="Land">Land</option>
+                            <option value="MG">MG</option>
+                            <option value="Volvo">Volvo</option>
+                            <option value="Daewoo">Daewoo</option>
+                            <option value="Kia">Kia</option>
+                            <option value="Fiat">Fiat</option>
+                            <option value="Force">Force</option>
+                            <option value="Ambassador">Ambassador</option>
+                            <option value="Ashok">Ashok</option>
+                            <option value="Isuzu">Isuzu</option>
+                            <option value="Opel">Opel</option>
+                                <!-- Add more brand options here -->
+                            </select>
+                        </div>
+                       
+                        <div class="form-group">
+                            <label for="model-name">Model Name</label>
+                            <select id="model-name" name="model-name" required>
+                                <option value="">Select Model Name</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="seats">Seats</label>
+                            <input type="number" id="seats" name="seats" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="body-type">Body Type</label>
+                            <input type="text" id="body-type" name="body-type" readonly><br>
+    
+                             
+                            </select>
+                        </div>
+                                 <!-- Navigation Buttons -->
+                <div class="form-buttons">
+                    <button type="button" class="next-btn">Next</button>
+                  
+                </div>
+                    </div>
+                    <div class="form-image">
+                        <img src="https://img.freepik.com/free-photo/view-3d-car-with-nature-landscape_23-2151005280.jpg">
+                    </div>
+                
+                </div>
+              
+                <!-- Step 2 -->
+                <div class="form-step step-2">
+                    <div class="form-content">
+                        <h2>Tell us  about your car</h2>
+                        <div class="form-group">
+                            <label for="year">Year</label>
+                            <select id="year" name="year" required>
+                              
+                                <!-- Add options for years from 2008 to 2024 -->
+                                <option value="2008">2008</option>
+                                <option value="2009">2009</option>
+                                <option value="2009">2010</option>
+                                <option value="2009">2011</option>
+                                <option value="2009">2012</option>
+                                <option value="2009">2013</option>
+                                <option value="2009">2014</option>
+                                <option value="2009">2015</option>
+                                <option value="2009">2016</option>
+                                <option value="2009">2017</option>
+                                <option value="2009">2018</option>
+                                <option value="2009">2019</option>
+                                <option value="2009">2020</option>
+                                <option value="2009">2021</option>
+                                <option value="2009">2022</option>
+                                <option value="2009">2023</option>
+                                <option value="2024">2024</option>
+                              </select>                    
+                                </div>
+                        <div class="form-group">
+    
+    
+    
+    
+    
+    
+    
+                            <div class="form-group">
+                                <label for="kilometers-driven">Kilometers Driven</label>
+                                <select id="kilometers-driven" name="kilometers-driven" required>
+                                    <option value="25000">Below 50K</option>
+                                    <option value="75000">50K - 1 Lakh</option>
+                                    <option value="125000">1 Lakh - 1.5 Lakh</option>
+                                    <option value="175000">1.5 Lakh - 2 Lakh</option>
+                                    <option value="225000">2 Lakh - 2.5 Lakh</option>
+                                    <option value="275000">2.5 Lakh - 3 Lakh</option>
+                                    <option value="325000">3 Lakh - 3.5 Lakh</option>
+                                    <option value="350000">Above 3.5 Lakh</option>
+                                </select>
+                            </div>
+                          
+                        </div>
+                        <div class="form-group">
+                            <label for="fuel-type">Fuel Type</label>
+                            <select id="fuel-type" name="fuel-type" required>
+                                <option value="Petrol">Petrol</option>
+                        <option value="Diesel">Diesel</option>
+                        <option value="LPG">LPG</option>
+                        <option value="CNG">CNG</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="seller-type">Seller Type</label>
+                            <select id="seller-type" name="seller-type" required>
+                                <option value="individual">Individual</option>
+                                <option value="dealer">Dealer</option>
+                            </select>
+                        </div>
+                         <!-- Navigation Buttons -->
+                <div class="form-buttons">
+                    <button type="button" class="prev-btn">Previous</button>
+                    <button type="button" class="next-btn">Next</button>
+                </div>
+                    </div>
+                    <div class="form-image">
+                        <img src="https://media.istockphoto.com/id/155419727/photo/sports-car.jpg?s=612x612&w=0&k=20&c=ye6gBgfek1Bm8n9OfINCetQ6pUA_YKl4yfjZW0UChng=">
+
+                    </div>
+                </div>
+    
+                <!-- Step 3 -->
+                <div class="form-step step-3">
+                    <div class="form-content">
+                        <h2>Finish up</h2>
+                   
+                        <div class="form-group">
+                            <label for="owner">Owner</label>
+                            <select id="owner" name="owner" required>
+                                <option value="First Owner">First Owner</option>
+                                <option value="Second Owner">Second Owner</option>
+                                <option value="Third Owner">Third Owner</option>
+                                <option value="Fourth & Above Owner">Fourth & Above Owner</option>
+                                <option value="Test Drive Car">Test Drive Car</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+    
+    
+    
+    
+                            <div class="form-group">
+                                <label for="mileage">Mileage</label>
+                                <select id="mileage" name="mileage" required>
+                                    <option value="10">Below 12 km/l</option>
+                                    <option value="13">12 - 14 km/l</option>
+                                    <option value="15">14 - 16 km/l</option>
+                                    <option value="17">16 - 18 km/l</option>
+                                    <option value="19">18 - 20 km/l</option>
+                                    <option value="21">20 - 22 km/l</option>
+                                    <option value="23">22 - 24 km/l</option>
+                                    <option value="25">Above 24 km/l</option>
+                                </select>
+                            </div>
+                         
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="engine">Engine</label>
+                            <input type="text" id="engine" name="engine" readonly>
+                        </div>
+
+                         <!-- Navigation Buttons -->
+                <div class="form-buttons">
+                    <button type="button" class="prev-btn">Previous</button>
+                    <button type="submit" class="submit-btn">Submit</button>
+                </div>
+                    </div>
+                    <div class="form-image">
+                        <img src="https://cdn5.vectorstock.com/i/1000x1000/18/39/engine-pistons-oil-composition-vector-28361839.jpg">
+                    </div>
+                </div>
+               
+            </form>
+        </div>
+    
+        </div>
+
+        <div id="page4">
+          <h1>Frequently Asked Questions</h1>
+          <div class="accordion">
+              <div class="accordion-item">
+                  <div class="question">
+                      <span class="question-icon">&#8853;</span>
+                      <h3>How accurate are the price predictions?</h3>
+                  </div>
+                  <div class="answer">
+                      <p>Our predictions are based on historical data and machine learning models, providing accurate estimates.</p>
+                  </div>
+              </div>
+              <div class="accordion-item">
+                  <div class="question">
+                      <span class="question-icon">&#8853;</span>
+                      <h3>What factors affect the value of a used car?</h3>
+                  </div>
+                  <div class="answer">
+                      <p>Several factors, including mileage, make, model, year, and condition, can influence the actual worth of a car. These factors are considered during our price predictions.</p>
+                  </div>
+              </div>
+              <div class="accordion-item">
+                  <div class="question">
+                      <span class="question-icon">&#8853;</span>
+                      <h3>How can I determine if the dealer is offering a fair value for my trade-in?</h3>
+                  </div>
+                  <div class="answer">
+                      <p>Our model estimates the fair value of your car based on various attributes. Compare this estimate with the dealer's offer to assess fairness.</p>
+                  </div>
+              </div>
+              <div class="accordion-item">
+                  <div class="question">
+                      <span class="question-icon">&#8853;</span>
+                      <h3>As a seller, how can I price my used car appropriately?</h3>
+                  </div>
+                  <div class="answer">
+                      <p>Our model considers relevant features to provide a recommended price. You can use this estimate as a starting point and adjust based on market trends and other factors.</p>
+                  </div>
+              </div>
+              <div class="accordion-item">
+                  <div class="question">
+                      <span class="question-icon">&#8853;</span>
+                      <h3>What data sources do you use for price predictions?</h3>
+                  </div>
+                  <div class="answer">
+                      <p>Our dataset includes information such as car name, year, selling price, present price, kilometers driven, fuel type, seller type, and transmission.</p>
+                  </div>
+              </div>
+              <div class="accordion-item">
+                  <div class="question">
+                      <span class="question-icon">&#8853;</span>
+                      <h3>Why should I trust your price predictions?</h3>
+                  </div>
+                  <div class="answer">
+                      <p>Our predictions are based on machine learning algorithms trained on historical data. While no prediction is perfect, our model aims to provide reliable estimates.</p>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <div id="page5">
+          <div id="l2">
+        
+
+            <div class="footer_bg">
+                <div class="footer_bg_one"></div>
+                <div class="footer_bg_two"></div>
+                <div class="footer_bg_three"></div>
+            </div>
+            <footer class="footerr">
+                <div class="footer-content">
+                  <!-- Logo Section -->
+                  <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="{{ url_for('static', filename='images/iogo.png') }}" alt="">
+                    </div>
+                  </div>
+                  <!-- Team Section -->
+                  <div class="footer-section">
+                    <h3>Our Teem</h3>
+                    <ul class="team-members">
+                      <li>Vaishanvi</li>
+                      <li>Jyoti</li>
+                      <li>Digvijay</li>
+                      <li>Tejas</li>
+                    </ul>
+                  </div>
+                  <!-- Quick Links Section -->
+                  <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="quick-links">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">Contact</a></li>
+                    </ul>
+                  </div>
+                </div>
+               
+              </footer>
+              <div class="footer-bottom">
+                <p>&copy; 2024 AutoRate. All rights reserved.</p>
+              </div>
+         </div><!--animation cha div-->
+
+        </div>
+    </div><!--main-->
+      
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script> <!-- Recommended -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
